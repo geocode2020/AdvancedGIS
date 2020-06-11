@@ -1,0 +1,1330 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.10.5-A Coruña" projectname="">
+  <homePath path=""/>
+  <title></title>
+  <autotransaction active="0"/>
+  <evaluateDefaultValues active="0"/>
+  <trust active="0"/>
+  <projectCrs>
+    <spatialrefsys>
+      <wkt>PROJCRS["NAD83(NSRS2007) / New York West (ftUS)",BASEGEOGCRS["NAD83(NSRS2007)",DATUM["NAD83 (National Spatial Reference System 2007)",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4759]],CONVERSION["SPCS83 New York West zone (US Survey feet)",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",40,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",-78.5833333333333,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9999375,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",1148291.667,LENGTHUNIT["US survey foot",0.304800609601219],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["US survey foot",0.304800609601219],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["easting (X)",east,ORDER[1],LENGTHUNIT["US survey foot",0.304800609601219]],AXIS["northing (Y)",north,ORDER[2],LENGTHUNIT["US survey foot",0.304800609601219]],USAGE[SCOPE["unknown"],AREA["USA - New York - SPCS - W"],BBOX[41.99,-79.77,43.64,-77.36]],ID["EPSG",3630]]</wkt>
+      <proj4>+proj=tmerc +lat_0=40 +lon_0=-78.5833333333333 +k=0.9999375 +x_0=350000.0001016 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs</proj4>
+      <srsid>1588</srsid>
+      <srid>3630</srid>
+      <authid>EPSG:3630</authid>
+      <description>NAD83(NSRS2007) / New York West (ftUS)</description>
+      <projectionacronym>tmerc</projectionacronym>
+      <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </projectCrs>
+  <layer-tree-group>
+    <customproperties/>
+    <layer-tree-layer checked="Qt::Checked" source="./CarBeat.shp" providerKey="ogr" name="CarBeat" expanded="1" id="CarBeat_f31df98d_a8d6_41c2_94fb_03c4aaf5aebd" legend_exp="">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer checked="Qt::Checked" source="./CarBeatCenter.shp" providerKey="ogr" name="CarBeatCenter" expanded="1" id="CarBeatCenter_0e10d86a_7524_4b10_980c_bf0ac3a1349d" legend_exp="">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer checked="Qt::Checked" source="./Retail_Businesses.shp" providerKey="ogr" name="Retail_Businesses" expanded="1" id="Retail_Businesses_92d6e6b3_aa2a_4e23_a20a_3d2871bf1af2" legend_exp="">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer checked="Qt::Checked" source="./streets.shp" providerKey="ogr" name="streets" expanded="1" id="streets_2cdfd909_d873_4e3d_98e5_d7d78ee41a15" legend_exp="">
+      <customproperties/>
+    </layer-tree-layer>
+    <custom-order enabled="0">
+      <item>CarBeat_f31df98d_a8d6_41c2_94fb_03c4aaf5aebd</item>
+      <item>CarBeatCenter_0e10d86a_7524_4b10_980c_bf0ac3a1349d</item>
+      <item>Retail_Businesses_92d6e6b3_aa2a_4e23_a20a_3d2871bf1af2</item>
+      <item>streets_2cdfd909_d873_4e3d_98e5_d7d78ee41a15</item>
+    </custom-order>
+  </layer-tree-group>
+  <snapping-settings enabled="0" type="1" unit="1" mode="2" tolerance="12" intersection-snapping="0">
+    <individual-layer-settings>
+      <layer-setting enabled="0" type="1" tolerance="12" id="Retail_Businesses_92d6e6b3_aa2a_4e23_a20a_3d2871bf1af2" units="1"/>
+      <layer-setting enabled="0" type="1" tolerance="12" id="streets_2cdfd909_d873_4e3d_98e5_d7d78ee41a15" units="1"/>
+      <layer-setting enabled="0" type="1" tolerance="12" id="CarBeatCenter_0e10d86a_7524_4b10_980c_bf0ac3a1349d" units="1"/>
+      <layer-setting enabled="0" type="1" tolerance="12" id="CarBeat_f31df98d_a8d6_41c2_94fb_03c4aaf5aebd" units="1"/>
+    </individual-layer-settings>
+  </snapping-settings>
+  <relations/>
+  <mapcanvas name="theMapCanvas" annotationsVisible="1">
+    <units>feet</units>
+    <extent>
+      <xmin>1391228.23419956816360354</xmin>
+      <ymin>1158706.80696890130639076</ymin>
+      <xmax>1417776.31537332618609071</xmax>
+      <ymax>1172130.6267678658477962</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <wkt>PROJCRS["NAD83(NSRS2007) / New York West (ftUS)",BASEGEOGCRS["NAD83(NSRS2007)",DATUM["NAD83 (National Spatial Reference System 2007)",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4759]],CONVERSION["SPCS83 New York West zone (US Survey feet)",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",40,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",-78.5833333333333,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9999375,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",1148291.667,LENGTHUNIT["US survey foot",0.304800609601219],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["US survey foot",0.304800609601219],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["easting (X)",east,ORDER[1],LENGTHUNIT["US survey foot",0.304800609601219]],AXIS["northing (Y)",north,ORDER[2],LENGTHUNIT["US survey foot",0.304800609601219]],USAGE[SCOPE["unknown"],AREA["USA - New York - SPCS - W"],BBOX[41.99,-79.77,43.64,-77.36]],ID["EPSG",3630]]</wkt>
+        <proj4>+proj=tmerc +lat_0=40 +lon_0=-78.5833333333333 +k=0.9999375 +x_0=350000.0001016 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs</proj4>
+        <srsid>1588</srsid>
+        <srid>3630</srid>
+        <authid>EPSG:3630</authid>
+        <description>NAD83(NSRS2007) / New York West (ftUS)</description>
+        <projectionacronym>tmerc</projectionacronym>
+        <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <expressionContextScope/>
+  </mapcanvas>
+  <projectModels/>
+  <legend updateDrawingOrder="true">
+    <legendlayer checked="Qt::Checked" showFeatureCount="0" drawingOrder="-1" name="CarBeat" open="true">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile visible="1" isInOverview="0" layerid="CarBeat_f31df98d_a8d6_41c2_94fb_03c4aaf5aebd"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer checked="Qt::Checked" showFeatureCount="0" drawingOrder="-1" name="CarBeatCenter" open="true">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile visible="1" isInOverview="0" layerid="CarBeatCenter_0e10d86a_7524_4b10_980c_bf0ac3a1349d"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer checked="Qt::Checked" showFeatureCount="0" drawingOrder="-1" name="Retail_Businesses" open="true">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile visible="1" isInOverview="0" layerid="Retail_Businesses_92d6e6b3_aa2a_4e23_a20a_3d2871bf1af2"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer checked="Qt::Checked" showFeatureCount="0" drawingOrder="-1" name="streets" open="true">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile visible="1" isInOverview="0" layerid="streets_2cdfd909_d873_4e3d_98e5_d7d78ee41a15"/>
+      </filegroup>
+    </legendlayer>
+  </legend>
+  <mapViewDocks/>
+  <mapViewDocks3D/>
+  <projectlayers>
+    <maplayer simplifyAlgorithm="0" maxScale="0" simplifyDrawingTol="1" autoRefreshEnabled="0" type="vector" simplifyMaxScale="1" refreshOnNotifyEnabled="0" minScale="1e+08" labelsEnabled="0" wkbType="Point" autoRefreshTime="0" simplifyDrawingHints="0" simplifyLocal="1" styleCategories="AllStyleCategories" geometry="Point" readOnly="0" refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>1397603.17213566228747368</xmin>
+        <ymin>1156203.70370724052190781</ymin>
+        <xmax>1404519.58743666112422943</xmax>
+        <ymax>1179549.78562390804290771</ymax>
+      </extent>
+      <id>CarBeatCenter_0e10d86a_7524_4b10_980c_bf0ac3a1349d</id>
+      <datasource>./CarBeatCenter.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>CarBeatCenter</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCRS["NAD83 / New York West (ftUS)",BASEGEOGCRS["NAD83",DATUM["North American Datum 1983",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]],ID["EPSG",6269]],PRIMEM["Greenwich",0,ANGLEUNIT["Degree",0.0174532925199433]]],CONVERSION["unnamed",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",40,ANGLEUNIT["Degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",-78.5833333333333,ANGLEUNIT["Degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9999375,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",1148291.66666667,LENGTHUNIT["US survey foot",0.304800609601219],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["US survey foot",0.304800609601219],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["US survey foot",0.304800609601219,ID["EPSG",9003]]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["US survey foot",0.304800609601219,ID["EPSG",9003]]]]</wkt>
+          <proj4>+proj=tmerc +lat_0=40 +lon_0=-78.5833333333333 +k=0.9999375 +x_0=350000.000000001 +y_0=0 +datum=NAD83 +units=us-ft +no_defs +type=crs</proj4>
+          <srsid>0</srsid>
+          <srid>0</srid>
+          <authid></authid>
+          <description></description>
+          <projectionacronym></projectionacronym>
+          <ellipsoidacronym>PARAMETER:6378137:6356752.31414035614579916</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>true</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial dimensions="2" maxz="0" maxx="0" minx="0" minz="0" maxy="0" crs="" miny="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 symbollevels="0" forceraster="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol type="marker" clip_to_extent="1" name="0" alpha="1" force_rhr="0">
+            <layer pass="0" class="SimpleMarker" enabled="1" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="0,0,0,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="255,255,255,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.4"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2.5"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property value="0" key="embeddedWidgets/count"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
+        <DiagramCategory minScaleDenominator="0" penWidth="0" diagramOrientation="Up" penColor="#000000" rotationOffset="270" lineSizeType="MM" height="15" opacity="1" lineSizeScale="3x:0,0,0,0,0,0" scaleDependency="Area" backgroundColor="#ffffff" penAlpha="255" backgroundAlpha="255" sizeScale="3x:0,0,0,0,0,0" labelPlacementMethod="XHeight" scaleBasedVisibility="0" barWidth="5" enabled="0" sizeType="MM" width="15" minimumSize="0" maxScaleDenominator="1e+08">
+          <fontProperties style="" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
+          <attribute color="#000000" field="" label=""/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings dist="0" showAll="1" zIndex="0" linePlacementFlags="18" obstacle="0" placement="0" priority="0">
+        <properties>
+          <Option type="Map">
+            <Option value="" type="QString" name="name"/>
+            <Option name="properties"/>
+            <Option value="collection" type="QString" name="type"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="BEAT">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SECT">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" field="BEAT" name=""/>
+        <alias index="1" field="SECT" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="BEAT" expression="" applyOnUpdate="0"/>
+        <default field="SECT" expression="" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" field="BEAT" unique_strength="0" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="SECT" unique_strength="0" exp_strength="0" constraints="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" field="BEAT" exp=""/>
+        <constraint desc="" field="SECT" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+        <columns>
+          <column type="field" name="BEAT" hidden="0" width="-1"/>
+          <column type="field" name="SECT" hidden="0" width="-1"/>
+          <column type="actions" hidden="1" width="-1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field name="BEAT" editable="1"/>
+        <field name="SECT" editable="1"/>
+      </editable>
+      <labelOnTop>
+        <field labelOnTop="0" name="BEAT"/>
+        <field labelOnTop="0" name="SECT"/>
+      </labelOnTop>
+      <widgets/>
+      <previewExpression>BEAT</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer simplifyAlgorithm="0" maxScale="0" simplifyDrawingTol="1" autoRefreshEnabled="0" type="vector" simplifyMaxScale="1" refreshOnNotifyEnabled="0" minScale="1e+08" labelsEnabled="0" wkbType="MultiPolygon" autoRefreshTime="0" simplifyDrawingHints="1" simplifyLocal="1" styleCategories="AllStyleCategories" geometry="Polygon" readOnly="0" refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>1394516.9073181189596653</xmin>
+        <ymin>1154508.87497850507497787</ymin>
+        <xmax>1409578.87488414347171783</xmax>
+        <ymax>1192076.75006949482485652</ymax>
+      </extent>
+      <id>CarBeat_f31df98d_a8d6_41c2_94fb_03c4aaf5aebd</id>
+      <datasource>./CarBeat.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>CarBeat</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCRS["NAD83 / New York West (ftUS)",BASEGEOGCRS["NAD83",DATUM["North American Datum 1983",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]],ID["EPSG",6269]],PRIMEM["Greenwich",0,ANGLEUNIT["Degree",0.0174532925199433]]],CONVERSION["unnamed",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",40,ANGLEUNIT["Degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",-78.5833333333333,ANGLEUNIT["Degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9999375,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",1148291.66666667,LENGTHUNIT["US survey foot",0.304800609601219],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["US survey foot",0.304800609601219],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["US survey foot",0.304800609601219,ID["EPSG",9003]]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["US survey foot",0.304800609601219,ID["EPSG",9003]]]]</wkt>
+          <proj4>+proj=tmerc +lat_0=40 +lon_0=-78.5833333333333 +k=0.9999375 +x_0=350000.000000001 +y_0=0 +datum=NAD83 +units=us-ft +no_defs +type=crs</proj4>
+          <srsid>0</srsid>
+          <srid>0</srid>
+          <authid></authid>
+          <description></description>
+          <projectionacronym></projectionacronym>
+          <ellipsoidacronym>PARAMETER:6378137:6356752.31414035614579916</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>true</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial dimensions="2" maxz="0" maxx="0" minx="0" minz="0" maxy="0" crs="" miny="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 symbollevels="0" forceraster="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol type="fill" clip_to_extent="1" name="0" alpha="1" force_rhr="0">
+            <layer pass="0" class="SimpleFill" enabled="1" locked="0">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="183,72,75,0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.46"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property value="0" key="embeddedWidgets/count"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
+        <DiagramCategory minScaleDenominator="0" penWidth="0" diagramOrientation="Up" penColor="#000000" rotationOffset="270" lineSizeType="MM" height="15" opacity="1" lineSizeScale="3x:0,0,0,0,0,0" scaleDependency="Area" backgroundColor="#ffffff" penAlpha="255" backgroundAlpha="255" sizeScale="3x:0,0,0,0,0,0" labelPlacementMethod="XHeight" scaleBasedVisibility="0" barWidth="5" enabled="0" sizeType="MM" width="15" minimumSize="0" maxScaleDenominator="1e+08">
+          <fontProperties style="" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
+          <attribute color="#000000" field="" label=""/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings dist="0" showAll="1" zIndex="0" linePlacementFlags="18" obstacle="0" placement="1" priority="0">
+        <properties>
+          <Option type="Map">
+            <Option value="" type="QString" name="name"/>
+            <Option name="properties"/>
+            <Option value="collection" type="QString" name="type"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks/>
+        <checkConfiguration type="Map">
+          <Option type="Map" name="QgsGeometryGapCheck">
+            <Option value="0" type="double" name="allowedGapsBuffer"/>
+            <Option value="false" type="bool" name="allowedGapsEnabled"/>
+            <Option value="" type="QString" name="allowedGapsLayer"/>
+          </Option>
+        </checkConfiguration>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="BEAT">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SECT">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" field="BEAT" name=""/>
+        <alias index="1" field="SECT" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="BEAT" expression="" applyOnUpdate="0"/>
+        <default field="SECT" expression="" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" field="BEAT" unique_strength="0" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="SECT" unique_strength="0" exp_strength="0" constraints="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" field="BEAT" exp=""/>
+        <constraint desc="" field="SECT" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+        <columns>
+          <column type="field" name="BEAT" hidden="0" width="-1"/>
+          <column type="field" name="SECT" hidden="0" width="-1"/>
+          <column type="actions" hidden="1" width="-1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field name="BEAT" editable="1"/>
+        <field name="SECT" editable="1"/>
+      </editable>
+      <labelOnTop>
+        <field labelOnTop="0" name="BEAT"/>
+        <field labelOnTop="0" name="SECT"/>
+      </labelOnTop>
+      <widgets/>
+      <previewExpression>BEAT</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer simplifyAlgorithm="0" maxScale="0" simplifyDrawingTol="1" autoRefreshEnabled="0" type="vector" simplifyMaxScale="1" refreshOnNotifyEnabled="0" minScale="1e+08" labelsEnabled="0" wkbType="Point" autoRefreshTime="0" simplifyDrawingHints="0" simplifyLocal="1" styleCategories="AllStyleCategories" geometry="Point" readOnly="0" refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>1394419.17723260447382927</xmin>
+        <ymin>1154558.49355442821979523</ymin>
+        <xmax>1407682.0511009581387043</xmax>
+        <ymax>1191174.63022852689027786</ymax>
+      </extent>
+      <id>Retail_Businesses_92d6e6b3_aa2a_4e23_a20a_3d2871bf1af2</id>
+      <datasource>./Retail_Businesses.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Retail_Businesses</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCRS["NAD83 / New York West (ftUS)",BASEGEOGCRS["NAD83",DATUM["North American Datum 1983",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]],ID["EPSG",6269]],PRIMEM["Greenwich",0,ANGLEUNIT["Degree",0.0174532925199433]]],CONVERSION["unnamed",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",40,ANGLEUNIT["Degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",-78.5833333333333,ANGLEUNIT["Degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9999375,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",1148291.66666667,LENGTHUNIT["US survey foot",0.304800609601219],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["US survey foot",0.304800609601219],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["US survey foot",0.304800609601219,ID["EPSG",9003]]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["US survey foot",0.304800609601219,ID["EPSG",9003]]]]</wkt>
+          <proj4>+proj=tmerc +lat_0=40 +lon_0=-78.5833333333333 +k=0.9999375 +x_0=350000.000000001 +y_0=0 +datum=NAD83 +units=us-ft +no_defs +type=crs</proj4>
+          <srsid>0</srsid>
+          <srid>0</srid>
+          <authid></authid>
+          <description></description>
+          <projectionacronym></projectionacronym>
+          <ellipsoidacronym>PARAMETER:6378137:6356752.31414035614579916</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>true</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial dimensions="2" maxz="0" maxx="0" minx="0" minz="0" maxy="0" crs="" miny="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 symbollevels="0" forceraster="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol type="marker" clip_to_extent="1" name="0" alpha="1" force_rhr="0">
+            <layer pass="0" class="SimpleMarker" enabled="1" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="72,123,182,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="50,87,128,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.4"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="1.5"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property value="0" key="embeddedWidgets/count"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
+        <DiagramCategory minScaleDenominator="0" penWidth="0" diagramOrientation="Up" penColor="#000000" rotationOffset="270" lineSizeType="MM" height="15" opacity="1" lineSizeScale="3x:0,0,0,0,0,0" scaleDependency="Area" backgroundColor="#ffffff" penAlpha="255" backgroundAlpha="255" sizeScale="3x:0,0,0,0,0,0" labelPlacementMethod="XHeight" scaleBasedVisibility="0" barWidth="5" enabled="0" sizeType="MM" width="15" minimumSize="0" maxScaleDenominator="1e+08">
+          <fontProperties style="" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
+          <attribute color="#000000" field="" label=""/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings dist="0" showAll="1" zIndex="0" linePlacementFlags="18" obstacle="0" placement="0" priority="0">
+        <properties>
+          <Option type="Map">
+            <Option value="" type="QString" name="name"/>
+            <Option name="properties"/>
+            <Option value="collection" type="QString" name="type"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="NAME">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ADDRESS">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ZIPCODE">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PHONE">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SIC">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LATITUDE">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LONGITUDE">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" field="NAME" name=""/>
+        <alias index="1" field="ADDRESS" name=""/>
+        <alias index="2" field="ZIPCODE" name=""/>
+        <alias index="3" field="PHONE" name=""/>
+        <alias index="4" field="SIC" name=""/>
+        <alias index="5" field="LATITUDE" name=""/>
+        <alias index="6" field="LONGITUDE" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="NAME" expression="" applyOnUpdate="0"/>
+        <default field="ADDRESS" expression="" applyOnUpdate="0"/>
+        <default field="ZIPCODE" expression="" applyOnUpdate="0"/>
+        <default field="PHONE" expression="" applyOnUpdate="0"/>
+        <default field="SIC" expression="" applyOnUpdate="0"/>
+        <default field="LATITUDE" expression="" applyOnUpdate="0"/>
+        <default field="LONGITUDE" expression="" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" field="NAME" unique_strength="0" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="ADDRESS" unique_strength="0" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="ZIPCODE" unique_strength="0" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="PHONE" unique_strength="0" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="SIC" unique_strength="0" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="LATITUDE" unique_strength="0" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="LONGITUDE" unique_strength="0" exp_strength="0" constraints="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" field="NAME" exp=""/>
+        <constraint desc="" field="ADDRESS" exp=""/>
+        <constraint desc="" field="ZIPCODE" exp=""/>
+        <constraint desc="" field="PHONE" exp=""/>
+        <constraint desc="" field="SIC" exp=""/>
+        <constraint desc="" field="LATITUDE" exp=""/>
+        <constraint desc="" field="LONGITUDE" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+        <columns>
+          <column type="field" name="NAME" hidden="0" width="-1"/>
+          <column type="field" name="ADDRESS" hidden="0" width="-1"/>
+          <column type="field" name="ZIPCODE" hidden="0" width="-1"/>
+          <column type="field" name="PHONE" hidden="0" width="-1"/>
+          <column type="field" name="SIC" hidden="0" width="-1"/>
+          <column type="field" name="LATITUDE" hidden="0" width="-1"/>
+          <column type="field" name="LONGITUDE" hidden="0" width="-1"/>
+          <column type="actions" hidden="1" width="-1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field name="ADDRESS" editable="1"/>
+        <field name="LATITUDE" editable="1"/>
+        <field name="LONGITUDE" editable="1"/>
+        <field name="NAME" editable="1"/>
+        <field name="PHONE" editable="1"/>
+        <field name="SIC" editable="1"/>
+        <field name="ZIPCODE" editable="1"/>
+      </editable>
+      <labelOnTop>
+        <field labelOnTop="0" name="ADDRESS"/>
+        <field labelOnTop="0" name="LATITUDE"/>
+        <field labelOnTop="0" name="LONGITUDE"/>
+        <field labelOnTop="0" name="NAME"/>
+        <field labelOnTop="0" name="PHONE"/>
+        <field labelOnTop="0" name="SIC"/>
+        <field labelOnTop="0" name="ZIPCODE"/>
+      </labelOnTop>
+      <widgets/>
+      <previewExpression>NAME</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer simplifyAlgorithm="0" maxScale="0" simplifyDrawingTol="1" autoRefreshEnabled="0" type="vector" simplifyMaxScale="1" refreshOnNotifyEnabled="0" minScale="1e+08" labelsEnabled="0" wkbType="MultiLineString" autoRefreshTime="0" simplifyDrawingHints="1" simplifyLocal="1" styleCategories="AllStyleCategories" geometry="Line" readOnly="0" refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>1393153.63366904109716415</xmin>
+        <ymin>1154511.29285718500614166</ymin>
+        <xmax>1408824.8155716375913471</xmax>
+        <ymax>1191875.07625198876485229</ymax>
+      </extent>
+      <id>streets_2cdfd909_d873_4e3d_98e5_d7d78ee41a15</id>
+      <datasource>./streets.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>streets</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCRS["NAD83 / New York West (ftUS)",BASEGEOGCRS["NAD83",DATUM["North American Datum 1983",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]],ID["EPSG",6269]],PRIMEM["Greenwich",0,ANGLEUNIT["Degree",0.0174532925199433]]],CONVERSION["unnamed",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",40,ANGLEUNIT["Degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",-78.5833333333333,ANGLEUNIT["Degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9999375,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",1148291.66666667,LENGTHUNIT["US survey foot",0.304800609601219],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["US survey foot",0.304800609601219],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["US survey foot",0.304800609601219,ID["EPSG",9003]]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["US survey foot",0.304800609601219,ID["EPSG",9003]]]]</wkt>
+          <proj4>+proj=tmerc +lat_0=40 +lon_0=-78.5833333333333 +k=0.9999375 +x_0=350000.000000001 +y_0=0 +datum=NAD83 +units=us-ft +no_defs +type=crs</proj4>
+          <srsid>0</srsid>
+          <srid>0</srid>
+          <authid></authid>
+          <description></description>
+          <projectionacronym></projectionacronym>
+          <ellipsoidacronym>PARAMETER:6378137:6356752.31414035614579916</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>true</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 symbollevels="0" forceraster="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol type="line" clip_to_extent="1" name="0" alpha="1" force_rhr="0">
+            <layer pass="0" class="SimpleLine" enabled="1" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="141,90,153,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="0.26"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="ring_filter" v="0"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks type="StringList">
+          <Option value="" type="QString"/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="L_F_ADD">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="L_T_ADD">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="R_F_ADD">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="R_T_ADD">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PREFIX">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NAME">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TYPE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SUFFIX">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="FCC">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ZIPL">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ZIPR">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" field="L_F_ADD" name=""/>
+        <alias index="1" field="L_T_ADD" name=""/>
+        <alias index="2" field="R_F_ADD" name=""/>
+        <alias index="3" field="R_T_ADD" name=""/>
+        <alias index="4" field="PREFIX" name=""/>
+        <alias index="5" field="NAME" name=""/>
+        <alias index="6" field="TYPE" name=""/>
+        <alias index="7" field="SUFFIX" name=""/>
+        <alias index="8" field="FCC" name=""/>
+        <alias index="9" field="ZIPL" name=""/>
+        <alias index="10" field="ZIPR" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="L_F_ADD" expression="" applyOnUpdate="0"/>
+        <default field="L_T_ADD" expression="" applyOnUpdate="0"/>
+        <default field="R_F_ADD" expression="" applyOnUpdate="0"/>
+        <default field="R_T_ADD" expression="" applyOnUpdate="0"/>
+        <default field="PREFIX" expression="" applyOnUpdate="0"/>
+        <default field="NAME" expression="" applyOnUpdate="0"/>
+        <default field="TYPE" expression="" applyOnUpdate="0"/>
+        <default field="SUFFIX" expression="" applyOnUpdate="0"/>
+        <default field="FCC" expression="" applyOnUpdate="0"/>
+        <default field="ZIPL" expression="" applyOnUpdate="0"/>
+        <default field="ZIPR" expression="" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" field="L_F_ADD" unique_strength="0" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="L_T_ADD" unique_strength="0" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="R_F_ADD" unique_strength="0" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="R_T_ADD" unique_strength="0" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="PREFIX" unique_strength="0" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="NAME" unique_strength="0" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="TYPE" unique_strength="0" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="SUFFIX" unique_strength="0" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="FCC" unique_strength="0" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="ZIPL" unique_strength="0" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="ZIPR" unique_strength="0" exp_strength="0" constraints="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" field="L_F_ADD" exp=""/>
+        <constraint desc="" field="L_T_ADD" exp=""/>
+        <constraint desc="" field="R_F_ADD" exp=""/>
+        <constraint desc="" field="R_T_ADD" exp=""/>
+        <constraint desc="" field="PREFIX" exp=""/>
+        <constraint desc="" field="NAME" exp=""/>
+        <constraint desc="" field="TYPE" exp=""/>
+        <constraint desc="" field="SUFFIX" exp=""/>
+        <constraint desc="" field="FCC" exp=""/>
+        <constraint desc="" field="ZIPL" exp=""/>
+        <constraint desc="" field="ZIPR" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </projectlayers>
+  <layerorder>
+    <layer id="CarBeat_f31df98d_a8d6_41c2_94fb_03c4aaf5aebd"/>
+    <layer id="CarBeatCenter_0e10d86a_7524_4b10_980c_bf0ac3a1349d"/>
+    <layer id="Retail_Businesses_92d6e6b3_aa2a_4e23_a20a_3d2871bf1af2"/>
+    <layer id="streets_2cdfd909_d873_4e3d_98e5_d7d78ee41a15"/>
+  </layerorder>
+  <properties>
+    <DefaultStyles>
+      <ColorRamp type="QString"></ColorRamp>
+      <Fill type="QString"></Fill>
+      <Line type="QString"></Line>
+      <Marker type="QString"></Marker>
+      <Opacity type="double">1</Opacity>
+      <RandomColors type="bool">true</RandomColors>
+    </DefaultStyles>
+    <Gui>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+    </Gui>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+    <Macros>
+      <pythonCode type="QString"></pythonCode>
+    </Macros>
+    <Measure>
+      <Ellipsoid type="QString">EPSG:7019</Ellipsoid>
+    </Measure>
+    <Measurement>
+      <AreaUnits type="QString">m2</AreaUnits>
+      <DistanceUnits type="QString">meters</DistanceUnits>
+    </Measurement>
+    <PAL>
+      <CandidatesLine type="int">50</CandidatesLine>
+      <CandidatesPoint type="int">16</CandidatesPoint>
+      <CandidatesPolygon type="int">30</CandidatesPolygon>
+      <DrawRectOnly type="bool">false</DrawRectOnly>
+      <DrawUnplaced type="bool">false</DrawUnplaced>
+      <SearchMethod type="int">0</SearchMethod>
+      <ShowingAllLabels type="bool">false</ShowingAllLabels>
+      <ShowingCandidates type="bool">false</ShowingCandidates>
+      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
+      <TextFormat type="int">0</TextFormat>
+      <UnplacedColor type="QString">255,0,0,255</UnplacedColor>
+    </PAL>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <PositionPrecision>
+      <Automatic type="bool">true</Automatic>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+      <DegreeFormat type="QString">MU</DegreeFormat>
+    </PositionPrecision>
+    <SpatialRefSys>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+    <WCSLayers type="QStringList"/>
+    <WCSUrl type="QString"></WCSUrl>
+    <WFSLayers type="QStringList"/>
+    <WFSTLayers>
+      <Delete type="QStringList"/>
+      <Insert type="QStringList"/>
+      <Update type="QStringList"/>
+    </WFSTLayers>
+    <WFSUrl type="QString"></WFSUrl>
+    <WMSAccessConstraints type="QString">None</WMSAccessConstraints>
+    <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>
+    <WMSContactMail type="QString"></WMSContactMail>
+    <WMSContactOrganization type="QString"></WMSContactOrganization>
+    <WMSContactPerson type="QString"></WMSContactPerson>
+    <WMSContactPhone type="QString"></WMSContactPhone>
+    <WMSContactPosition type="QString"></WMSContactPosition>
+    <WMSDefaultMapUnitsPerMm type="double">1.0006561679790027</WMSDefaultMapUnitsPerMm>
+    <WMSFees type="QString">conditions unknown</WMSFees>
+    <WMSImageQuality type="int">90</WMSImageQuality>
+    <WMSKeywordList type="QStringList">
+      <value></value>
+    </WMSKeywordList>
+    <WMSMaxAtlasFeatures type="int">1</WMSMaxAtlasFeatures>
+    <WMSOnlineResource type="QString"></WMSOnlineResource>
+    <WMSPrecision type="QString">8</WMSPrecision>
+    <WMSRootName type="QString"></WMSRootName>
+    <WMSSegmentizeFeatureInfoGeometry type="bool">false</WMSSegmentizeFeatureInfoGeometry>
+    <WMSServiceAbstract type="QString"></WMSServiceAbstract>
+    <WMSServiceCapabilities type="bool">false</WMSServiceCapabilities>
+    <WMSServiceTitle type="QString"></WMSServiceTitle>
+    <WMSTileBuffer type="int">0</WMSTileBuffer>
+    <WMSUrl type="QString"></WMSUrl>
+    <WMSUseLayerIDs type="bool">false</WMSUseLayerIDs>
+    <WMTSGrids>
+      <CRS type="QStringList"/>
+      <Config type="QStringList"/>
+    </WMTSGrids>
+    <WMTSJpegLayers>
+      <Group type="QStringList"/>
+      <Layer type="QStringList"/>
+      <Project type="bool">false</Project>
+    </WMTSJpegLayers>
+    <WMTSLayers>
+      <Group type="QStringList"/>
+      <Layer type="QStringList"/>
+      <Project type="bool">false</Project>
+    </WMTSLayers>
+    <WMTSMinScale type="int">5000</WMTSMinScale>
+    <WMTSPngLayers>
+      <Group type="QStringList"/>
+      <Layer type="QStringList"/>
+      <Project type="bool">false</Project>
+    </WMTSPngLayers>
+    <WMTSUrl type="QString"></WMTSUrl>
+  </properties>
+  <visibility-presets/>
+  <transformContext>
+    <srcDest coordinateOp="+proj=pipeline +step +proj=unitconvert +xy_in=us-ft +xy_out=m +step +inv +proj=tmerc +lat_0=40 +lon_0=-78.5833333333333 +k=0.9999375 +x_0=350000.000000001 +y_0=0 +ellps=GRS80 +step +proj=hgridshift +grids=nyhpgn.gsb +step +proj=tmerc +lat_0=40 +lon_0=-78.5833333333333 +k=0.9999375 +x_0=350000.0001016 +y_0=0 +ellps=GRS80 +step +proj=unitconvert +xy_in=m +xy_out=us-ft" allowFallback="1">
+      <src>
+        <spatialrefsys>
+          <wkt>PROJCRS["NAD83 / New York West (ftUS)",BASEGEOGCRS["NAD83",DATUM["North American Datum 1983",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]],ID["EPSG",6269]],PRIMEM["Greenwich",0,ANGLEUNIT["Degree",0.0174532925199433]]],CONVERSION["unnamed",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",40,ANGLEUNIT["Degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",-78.5833333333333,ANGLEUNIT["Degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9999375,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",1148291.66666667,LENGTHUNIT["US survey foot",0.304800609601219],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["US survey foot",0.304800609601219],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["US survey foot",0.304800609601219,ID["EPSG",9003]]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["US survey foot",0.304800609601219,ID["EPSG",9003]]]]</wkt>
+          <proj4>+proj=tmerc +lat_0=40 +lon_0=-78.5833333333333 +k=0.9999375 +x_0=350000.000000001 +y_0=0 +datum=NAD83 +units=us-ft +no_defs +type=crs</proj4>
+          <srsid>0</srsid>
+          <srid>0</srid>
+          <authid></authid>
+          <description></description>
+          <projectionacronym></projectionacronym>
+          <ellipsoidacronym>PARAMETER:6378137:6356752.31414035614579916</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </src>
+      <dest>
+        <spatialrefsys>
+          <wkt>PROJCRS["NAD83(NSRS2007) / New York West (ftUS)",BASEGEOGCRS["NAD83(NSRS2007)",DATUM["NAD83 (National Spatial Reference System 2007)",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4759]],CONVERSION["SPCS83 New York West zone (US Survey feet)",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",40,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",-78.5833333333333,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9999375,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",1148291.667,LENGTHUNIT["US survey foot",0.304800609601219],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["US survey foot",0.304800609601219],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["easting (X)",east,ORDER[1],LENGTHUNIT["US survey foot",0.304800609601219]],AXIS["northing (Y)",north,ORDER[2],LENGTHUNIT["US survey foot",0.304800609601219]],USAGE[SCOPE["unknown"],AREA["USA - New York - SPCS - W"],BBOX[41.99,-79.77,43.64,-77.36]],ID["EPSG",3630]]</wkt>
+          <proj4>+proj=tmerc +lat_0=40 +lon_0=-78.5833333333333 +k=0.9999375 +x_0=350000.0001016 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs</proj4>
+          <srsid>1588</srsid>
+          <srid>3630</srid>
+          <authid>EPSG:3630</authid>
+          <description>NAD83(NSRS2007) / New York West (ftUS)</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </dest>
+    </srcDest>
+    <srcDest coordinateOp="+proj=pipeline +step +proj=unitconvert +xy_in=us-ft +xy_out=m +step +inv +proj=tmerc +lat_0=40 +lon_0=-78.5833333333333 +k=0.9999375 +x_0=350000.000000001 +y_0=0 +ellps=GRS80 +step +proj=hgridshift +grids=nyhpgn.gsb +step +proj=unitconvert +xy_in=rad +xy_out=deg" allowFallback="1">
+      <src>
+        <spatialrefsys>
+          <wkt>PROJCRS["NAD83 / New York West (ftUS)",BASEGEOGCRS["NAD83",DATUM["North American Datum 1983",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]],ID["EPSG",6269]],PRIMEM["Greenwich",0,ANGLEUNIT["Degree",0.0174532925199433]]],CONVERSION["unnamed",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",40,ANGLEUNIT["Degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",-78.5833333333333,ANGLEUNIT["Degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9999375,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",1148291.66666667,LENGTHUNIT["US survey foot",0.304800609601219],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["US survey foot",0.304800609601219],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["US survey foot",0.304800609601219,ID["EPSG",9003]]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["US survey foot",0.304800609601219,ID["EPSG",9003]]]]</wkt>
+          <proj4>+proj=tmerc +lat_0=40 +lon_0=-78.5833333333333 +k=0.9999375 +x_0=350000.000000001 +y_0=0 +datum=NAD83 +units=us-ft +no_defs +type=crs</proj4>
+          <srsid>0</srsid>
+          <srid>0</srid>
+          <authid></authid>
+          <description></description>
+          <projectionacronym></projectionacronym>
+          <ellipsoidacronym>PARAMETER:6378137:6356752.31414035614579916</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </src>
+      <dest>
+        <spatialrefsys>
+          <wkt>GEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["unknown"],AREA["World"],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </dest>
+    </srcDest>
+  </transformContext>
+  <projectMetadata>
+    <identifier></identifier>
+    <parentidentifier></parentidentifier>
+    <language></language>
+    <type></type>
+    <title></title>
+    <abstract></abstract>
+    <contact>
+      <name></name>
+      <organization></organization>
+      <position></position>
+      <voice></voice>
+      <fax></fax>
+      <email></email>
+      <role></role>
+    </contact>
+    <links/>
+    <author>MOHAMMED</author>
+    <creation>2020-06-10T12:24:40</creation>
+  </projectMetadata>
+  <Annotations/>
+  <Layouts/>
+  <Bookmarks/>
+  <ProjectViewSettings UseProjectScales="0">
+    <Scales/>
+  </ProjectViewSettings>
+</qgis>
